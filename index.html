@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FCC Weather App</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container-fluid">
+  		<h1 class="text-center">freeCodeCamp Weather App</h1>
+  		<div class="city">
+    		<p class="text-center">City :  <span id="city"></span></p>
+  		</div>
+  
+  		<div class="country">
+    		<p class="text-center">Country : <span id="country"></span></p>
+  		</div>
+  
+  		<div class="row temp-icon">
+  			<div class="col-md-6 col-xs-6 temp text-right">
+      			<span id="temp"></span>
+      			<sup>o</sup>
+      			<span id="unit"></span>
+    		</div>
+    		<div class="col-md-6 col-xs-6"><img src="" alt=""/></div>
+  		</div>
+  
+  		<form action="" class = "text-center">
+    		<label for="cel">Celcius</label>
+    		<input type="radio" id="cel" name="temp-pick" checked="checked"/>
+    		<label for="far">Fahrenheit</label>
+    		<input type="radio" id="far" name="temp-pick"/>
+  		</form>
+	</div>
+	<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
